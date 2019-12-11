@@ -1,6 +1,6 @@
 import React from 'react';
-import avaliador1 from './assets/avaliador.jpg'
-import estabelecimento from './assets/estabecimento.jpg'
+import avaliador1 from '../assets/avaliador.jpg'
+import estabelecimento from '../assets/estabecimento.jpg'
 
 var avaliacao = {
 	backgroundImage: "url(" +avaliador1+ ")"

@@ -1,5 +1,5 @@
 import React from 'react';
-import imgQuem from './assets/banner-quem-somos.jpg'
+import imgQuem from '../assets/banner-quem-somos.jpg'
 
 var avaliacao = {
 	backgroundImage: "url(" +imgQuem+ ")"

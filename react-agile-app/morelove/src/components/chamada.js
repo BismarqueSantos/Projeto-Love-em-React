@@ -1,7 +1,7 @@
 import React from 'react';
-import celular from './assets/nosso_app.png'
-import app1 from './assets/appstory.png'
-import app2 from './assets/googleplay.png'
+import celular from '../assets/nosso_app.png'
+import app1 from '../assets/appstory.png'
+import app2 from '../assets/googleplay.png'
 
 const Chamada = () =>{
 	return (
@@ -11,7 +11,7 @@ const Chamada = () =>{
 					<div className="container-fluid">
 						<div className="row">
 							<div className="col-md-6 banner">
-								<img src={celular} className="d-inline-block align-top" />
+								<img src={celular} className="d-inline-block align-top" alt="Imagem1"/>
 							</div>
 							<div className="col-md-6 chama align-self-center text-center">
 								<div className="row">
@@ -25,10 +25,10 @@ const Chamada = () =>{
 										<p>A Forma mais rapida de avaliar estabelecimentos, e ter acesso a avaliação geral de cada um de acordo com a sua preferência.</p>
 										<div className="row google">
 											<div className="col-md-6 text-right">
-												<img src={app1} className="d-inline-block align-top" />
+												<img src={app1} className="d-inline-block align-top" alt="Imagem1"/>
 											</div>
 											<div className="col-md-6 text-left">
-												<img src={app2} className="d-inline-block align-top" />
+												<img src={app2} className="d-inline-block align-top" alt="Imagem1"/>
 											</div>
 										</div>
 									</div>

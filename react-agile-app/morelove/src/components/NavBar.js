@@ -1,5 +1,7 @@
 import React from 'react';
-import love from './assets/+love.png'
+import love from '../assets/+love.png'
+import {Link} from 'react-router-dom'
+
 
 const NavBar = () =>{
 	return (
@@ -15,7 +17,7 @@ const NavBar = () =>{
 				          <a className="nav-link" href="#chamada">Home</a>
 				      </li>
 				      <li className="nav-item dropdown">
-				          <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+				          <a className="nav-link dropdown-toggle"  id="navbardrop" data-toggle="dropdown">
 				              Cadastro
 				          </a>
 				          <div className="dropdown-menu">
@@ -24,17 +26,17 @@ const NavBar = () =>{
 				          </div>
 				      </li>
 				      <li className="nav-item dropdown">
-				          <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+				          <a className="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
 				              Pódio
 				          </a>
 				          <div className="dropdown-menu">
-				              <a className="dropdown-item" href="#mural">Avaliadores</a>
-				              <a className="dropdown-item" href="#mural">Estabelecimento</a>
+				              <a className="dropdown-item" href="#">Avaliadores</a>
+				              <a className="dropdown-item" href="#">Estabelecimento</a>
 				          </div>
 				      </li>
 				      <li nav-item>
 				    <a href="#chamada" className="navbar-brand text-center">
-				        <img src={love} className="d-inline-block align-top" />
+				        <img src={love} className="d-inline-block align-top" alt="Imagem1" />
 				        <p>O Amor Pode Mudar o Mundo</p>
 				    </a>
 				  </li>
@@ -46,6 +48,13 @@ const NavBar = () =>{
 				      </li>
 				      <li className="nav-item">
 				          <a className="nav-link" href="#cont">Contato</a>
+				      </li>
+					  <li className="nav-item">
+				          <Link to='/perfil_usuario'>
+							  <button type="button" className="btn btn-success">
+									vai
+							  </button>
+						  </Link>
 				      </li>
 				 </ul>
 				  </div>
