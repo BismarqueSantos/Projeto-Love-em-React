@@ -1,0 +1,179 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.no_padding{
+  padding: 0;
+}
+
+/*INICIO NAVBAR*/
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 300;
+}
+.navbar .dropdown-menu{
+  background: #333333;
+}
+ .navbar ul{
+  width: 100%;
+ }
+ .navbar ul li{
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  margin: 0 10px;
+}
+ .navbar ul li a{
+  color: #ffffff;
+ }
+ .navbar img{
+  width: 50%;
+  height: auto;
+}
+ .navbar p{
+  color: #ffffff;
+  font-size: 10px;
+  margin: 0;
+}
+/*FIM NAVBAR*/
+
+/*INICIO CHAMADA APP*/
+.jumbotron{
+  margin-bottom: 0;
+  padding-top: 100px;
+}
+.jumbotron .chamada_app .banner img{
+  width: 100%;
+}
+.jumbotron .chamada_app .google img{
+  width: 50%;
+}
+/*FIM CHAMADA APP*/
+
+
+/*INICIO PESSOAS*/
+.pessoas{
+  background: #E9ECEF;
+  padding: 80px 0;
+}
+.pessoas .avaliador{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 110px 20px;
+}
+.pessoas .estabelecimento{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 110px 20px;
+  transition: 0.7s;
+}
+.pessoas .avaliador h3{
+  color: #ffffff;
+  font-size: 20px;
+}
+.pessoas .estabelecimento h3{
+  color: #ffffff;
+  font-size: 20px;
+}
+.pessoas .avaliador .btn-primary, .pessoas .estabelecimento .btn-primary{
+  background: #ffffff20;
+    padding: 8px 40px;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+.pessoas .avaliador:hover .btn-primary, .pessoas .estabelecimento:hover .btn-primary{
+  background: #00000030;
+}
+/*FIM PESSOAS*/
+
+/*INICIO QUEM SOMOS*/
+.quem_somos .missoes{
+  background: #00000090;
+  padding: 150px 0;
+}
+.quem_somos{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.quem_somos h1{
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.quem_somos h2{
+  color: #ffffff;
+  font-size: 30px;
+}
+.quem_somos p{
+  color: #ffffff;
+  font-size: 16px;
+}
+/*FIM QUEM SOMOS*/
+
+/*INICIO PARCEIROS*/
+.parceiros{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 70px 0;
+}
+.parceiros img{
+  width: 100%;
+  height: 300px;
+}
+.parceiros h1{
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+}
+/*FIM PARCEIROS*/
+
+/*INICIO RODAPÈ*/
+.rodape{
+  background: #333333;
+  padding: 30px 0;
+}
+.rodape .menu h3{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.rodape .menu ul{
+  margin-top: -10px;
+  line-height: 1;
+}
+.rodape .menu ul li{
+  margin: 0;
+}
+.rodape .menu ul li a{
+  color: #ffffff;
+  font-size: 16px;
+}
+.rodape .menu ul li a:hover{
+  background: #333333;
+}
+.rodape .contatos h3{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.rodape .formulario h3{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.rodape .contatos h5{
+  color: #ffffff;
+  font-size: 16px;
+}
+.rodape input{
+  margin-top: 15px;
+  background: transparent;
+}
+.rodape textarea{
+  margin: 15px 0;
+  background: transparent;
+  color: #ffffff;
+}
+/*FIM RODAPÈ*/
