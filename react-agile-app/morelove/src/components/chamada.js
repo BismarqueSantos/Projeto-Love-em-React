@@ -1,7 +1,7 @@
 import React from 'react';
-import celular from '../assets/nosso_app.png'
-import app1 from '../assets/appstory.png'
-import app2 from '../assets/googleplay.png'
+import celular from '../img/nosso_app.png'
+import app1 from '../img/appstory.png'
+import app2 from '../img/googleplay.png'
 
 const Chamada = () =>{
 	return (
@@ -22,7 +22,7 @@ const Chamada = () =>{
 								<div className="row">
 									<div className="col-md-12">
 										<h5>Baixe Agora nosso Aplicativo</h5>
-										<p>A Forma mais rapida de avaliar estabelecimentos, e ter acesso a avaliação geral de cada um de acordo com a sua preferência.</p>
+										<p>A Forma mais rapida de avaliar estabelecimentos, e ter acesso aos estabelecimentos com mais empatia com a comunidade!</p>
 										<div className="row google">
 											<div className="col-md-6 text-right">
 												<img src={app1} className="d-inline-block align-top" alt="Imagem1"/>

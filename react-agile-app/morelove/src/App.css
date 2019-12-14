@@ -7,34 +7,47 @@ html{
 }
 
 /*INICIO NAVBAR*/
-.navbar{
+.topoHome .navbar{
   position: fixed;
   width: 100%;
   z-index: 300;
 }
-.navbar .dropdown-menu{
-  background: #333333;
+.topoHome .navbar .dropdown-menu{
+  background: #343a40;
 }
- .navbar ul{
+ .topoHome .navbar ul{
   width: 100%;
  }
- .navbar ul li{
+ .topoHome .navbar ul li{
   width: 100%;
   text-align: center;
   align-self: center;
   margin: 0 10px;
 }
- .navbar ul li a{
+.topoHome .navbar ul li a{
   color: #ffffff;
  }
- .navbar img{
+ .topoHome .navbar ul li a:hover{
+  background: #343a40;
+ }
+.topoHome .navbar img{
   width: 50%;
   height: auto;
 }
- .navbar p{
+.topoHome .navbar p{
   color: #ffffff;
   font-size: 10px;
   margin: 0;
+}
+.topoHome .navbar button{
+  background: transparent;
+  border: 0;
+  color: rgba(255,255,255,.5);
+}
+.topoHome .navbar button:hover{
+  background: transparent;
+  border: 0;
+  color: rgba(255,255,255,.75);
 }
 /*FIM NAVBAR*/
 
@@ -42,6 +55,7 @@ html{
 .jumbotron{
   margin-bottom: 0;
   padding-top: 100px;
+  padding-bottom: 0;
 }
 .jumbotron .chamada_app .banner img{
   width: 100%;
@@ -54,8 +68,8 @@ html{
 
 /*INICIO PESSOAS*/
 .pessoas{
-  background: #E9ECEF;
-  padding: 80px 0;
+  background: #343A40;
+  padding: 30px;
 }
 .pessoas .avaliador{
   background-size: 100% 100%;
@@ -89,10 +103,41 @@ html{
 }
 /*FIM PESSOAS*/
 
+/*INICIO PODIO*/
+.podio{
+  background: #E9ECEF;
+  padding: 50px 0;
+}
+.podio .img{
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  height: 150px;
+  border-radius: 5%;
+  margin-bottom: 5px;
+}
+.podio .img h4{
+  background: transparent;
+  color: transparent;
+  padding: 2px;
+  margin-top: 15%;
+  transition: 0.7s;
+}
+.podio .img:hover h4{
+  background: #00000090;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: 15%;
+}
+.podio h2{
+  color: #333333;
+  margin-bottom: 40px;
+}
+/*FIM PODIO*/
+
 /*INICIO QUEM SOMOS*/
 .quem_somos .missoes{
   background: #00000090;
-  padding: 150px 0;
+  padding: 80px 0;
 }
 .quem_somos{
   background-size: 100% 100%;
@@ -101,7 +146,7 @@ html{
 }
 .quem_somos h1{
   font-size: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   color: #ffffff;
 }
 .quem_somos h2{
@@ -177,3 +222,75 @@ html{
   color: #ffffff;
 }
 /*FIM RODAPÈ*/
+
+/*INICIO BARRA FINAL*/
+.barra_final .navbar ul li{
+  align-self: center;
+}
+.barra_final .navbar p{
+  font-size: 15px;
+}
+/*FIM BARRA FINAL*/
+
+/*INICIO PG_VITRINE*/
+.topoVitrine .navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 300;
+}
+.topoVitrine .navbar .dropdown-menu{
+  background: #333333;
+}
+ .topoVitrine .navbar ul{
+  width: 50%;
+ }
+ .topoVitrine .navbar ul li{
+  width: 50%;
+  text-align: center;
+  align-self: center;
+  margin: 0 20px;
+}
+.topoVitrine .navbar ul li a{
+  color: #ffffff;
+ }
+.topoVitrine .navbar img{
+  width: 50%;
+  height: auto;
+}
+.topoVitrine .navbar p{
+  color: #ffffff;
+  font-size: 10px;
+  margin: 0;
+}
+.topoVitrine .navbar button{
+  background: transparent;
+  border: 0;
+  color: rgba(255,255,255,.5);
+}
+.topoVitrine .navbar button:hover{
+  background: transparent;
+  border: 0;
+  color: rgba(255,255,255,.75);
+}
+.titulo{
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+.filtro .colona_filtro{
+  background: #eae9e9;
+  padding: 20px;
+  border-radius: 25px;
+}
+.filtro .colona_filtro h5{
+  margin-top: 20px;
+}
+.filtro .colona_filtro h6{
+  margin-top: 20px;
+}
+.filtro .colona_filtro select{
+  width: 100%;
+}
+.filtro .colona_filtro input{
+  margin-top: 20px;
+}
+/*FIM PG_VITRINE*/
