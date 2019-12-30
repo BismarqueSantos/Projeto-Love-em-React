@@ -24,7 +24,7 @@ var restaurante = {
 const Podio = () =>{
 	return (
 		<div>
-			<div className="podio"  id="mural">
+			<div className="podio"  id="podio">
 			    <div className="container">
 			        <div className="row  text-center">
 			            <div className="col-md-12">

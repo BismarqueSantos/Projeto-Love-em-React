@@ -19,9 +19,6 @@ const NavBar = () =>{
 					        <p>O Amor Pode Mudar o Mundo</p>
 					    </a>
 					  </li>
-				      <li className="nav-item">
-				          <a className="nav-link" href="#chamada">Home</a>
-				      </li>
 				      <li className="nav-item dropdown">
 				          <a className="nav-link dropdown-toggle"  id="navbardrop" data-toggle="dropdown">
 				              Cadastro
@@ -36,7 +33,7 @@ const NavBar = () =>{
 				              Pódio
 				          </a>
 				          <div className="dropdown-menu">
-				              <a className="dropdown-item" href="#">Estabelecimento</a>
+				              <a className="dropdown-item" href="#podio">Estabelecimento</a>
 				          </div>
 				      </li>
 				      <li className="nav-item">
@@ -54,6 +51,23 @@ const NavBar = () =>{
 									Vitrine
 							  </button>
 						  </Link>
+				      </li>
+				      <li className="nav-item dropdown">
+				          <a className="nav-link dropdown-toggle"  id="navbardrop" data-toggle="dropdown">
+				              Perfil
+				          </a>
+				          <div className="dropdown-menu">
+				              <Link to='/perfil_e'>
+								  <button type="button" className="btn btn-success">
+										Usuário
+								  </button>
+							  </Link>
+				              <Link to='/perfil_e'>
+								  <button type="button" className="btn btn-success">
+										Estabelecimento
+								  </button>
+							  </Link>
+				          </div>
 				      </li>
 				 </ul>
 				  </div>
