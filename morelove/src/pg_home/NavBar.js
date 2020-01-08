@@ -1,5 +1,6 @@
 import React from 'react';
 import love from '../img/+love.png'
+import Perfil from '../img/perfil.png'
 import {Link} from 'react-router-dom'
 
 
@@ -13,28 +14,19 @@ const NavBar = () =>{
 	          </button>
 	          <div className="collapse navbar-collapse" id="collapsibleNavbar">
 				 <ul className="navbar-nav">
-				      <li nav-item>
-					    <a href="#chamada" className="navbar-brand text-center">
-					        <img src={love} className="d-inline-block align-top" alt="Imagem1" />
-					        <p>O Amor Pode Mudar o Mundo</p>
-					    </a>
-					  </li>
-				      <li className="nav-item dropdown">
-				          <a className="nav-link dropdown-toggle"  id="navbardrop" data-toggle="dropdown">
-				              Cadastro
-				          </a>
-				          <div className="dropdown-menu">
-				              <a className="dropdown-item" href="#cadastrar">Usuário</a>
-				              <a className="dropdown-item" href="#cadastrar">Estabelecimento</a>
-				          </div>
+					  <li className="nav-item">
+				          <Link to='/'>
+							   <a href="#teste" className="navbar-brand text-center">
+							        <img src={love} className="d-inline-block align-top" alt="Imagem1" />
+							        <p>O Amor Pode Mudar o Mundo</p>
+							    </a>
+						  </Link>
 				      </li>
 				      <li className="nav-item dropdown">
-				          <a className="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
-				              Pódio
-				          </a>
-				          <div className="dropdown-menu">
-				              <a className="dropdown-item" href="#podio">Estabelecimento</a>
-				          </div>
+				          <a className="nav-link" href="#cadastrar">Cadastro</a>
+				      </li>
+				      <li className="nav-item dropdown">
+				          <a className="nav-link" href="#podio">Pódio</a>
 				      </li>
 				      <li className="nav-item">
 				          <a className="nav-link" href="#quem">Quem Somos</a>
@@ -45,19 +37,12 @@ const NavBar = () =>{
 				      <li className="nav-item">
 				          <a className="nav-link" href="#cont">Contato</a>
 				      </li>
-					  <li className="nav-item">
-				          <Link to='/vitrine'>
-							  <button type="button" className="btn btn-success">
-									Vitrine
-							  </button>
-						  </Link>
-				      </li>
 				      <li className="nav-item dropdown">
-				          <a className="nav-link dropdown-toggle"  id="navbardrop" data-toggle="dropdown">
-				              Perfil
+				          <a className="nav-link dropdown-toggle" href="#teste" id="navbardrop" data-toggle="dropdown">
+					        <img src={Perfil} className="d-inline-block" alt="Imagem1" />
 				          </a>
 				          <div className="dropdown-menu">
-				              <Link to='/perfil_e'>
+				              <Link to='/usuario'>
 								  <button type="button" className="btn btn-success">
 										Usuário
 								  </button>

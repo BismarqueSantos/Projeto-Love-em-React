@@ -36,17 +36,17 @@ const Cadastro = () =>{
 							                                    <fieldset>
 							                                        <div className="form-group row">
 							                                            <div className="col-md-12">
-							                                                <input id="textinput" name="textinput" type="text" placeholder="Nome da Empresa" className="form-control input-md"/>
+							                                                <input name="textinput" type="text" placeholder="Nome da Empresa" className="form-control input-md" />
 							                                            </div>
 							                                        </div>
 							                                        <div className="form-group row">
 							                                            <div className="col-md-12">
-							                                                <input id="textinput" name="textinput" type="text" placeholder="CNPJ" className="form-control input-md" />
+							                                                <input name="textinput" type="text" placeholder="CNPJ" className="form-control input-md" />
 							                                            </div>
 							                                        </div>
 							                                        <div className="form-group row">
 							                                            <div className="col-md-12">
-							                                                <select id="selectbasic" name="selectbasic" className="form-control">
+							                                                <select name="selectbasic" className="form-control">
 							                                                    <option value="1">Brasil</option>
 							                                                    <option value="2">SP</option>
 							                                                </select>
@@ -54,7 +54,7 @@ const Cadastro = () =>{
 							                                        </div>
 							                                        <div className="form-group row">
 							                                            <div className="col-md-12">
-							                                                <input id="textinput" name="textinput" type="text" placeholder="Endereço" className="form-control input-md" />
+							                                                <input name="textinput" type="text" placeholder="Endereço" className="form-control input-md" />
 							                                            </div>
 							                                        </div>
 							                                    </fieldset>
@@ -95,22 +95,22 @@ const Cadastro = () =>{
 							                                    <fieldset>
 							                                        <div className="form-group row">
 							                                            <div className="col-md-12">
-							                                                <input id="textinput" name="textinput" type="text" placeholder="Nome" className="form-control input-md" />
+							                                                <input name="textinput" type="text" placeholder="Nome" className="form-control input-md" />
 							                                            </div>
 							                                        </div>
 							                                        <div className="form-group row">
 							                                            <div className="col-md-12">
-							                                                <input id="textinput" name="textinput" type="text" placeholder="CPF" className="form-control input-md" />
+							                                                <input name="textinput" type="text" placeholder="CPF" className="form-control input-md" />
 							                                            </div>
 							                                        </div>
 							                                        <div className="form-group row">
 							                                            <div className="col-md-12">
-							                                                <input id="textinput" name="textinput" type="text" placeholder="Genero" className="form-control input-md" />
+							                                                <input name="textinput" type="text" placeholder="Genero" className="form-control input-md" />
 							                                            </div>
 							                                        </div>
 							                                        <div className="form-group row">
 							                                            <div className="col-md-12">
-							                                                <select id="selectbasic" name="selectbasic" className="form-control">
+							                                                <select name="selectbasic" className="form-control">
 							                                                    <option value="1">Brasil</option>
 							                                                    <option value="2">SP</option>
 							                                                </select>
@@ -118,7 +118,7 @@ const Cadastro = () =>{
 							                                        </div>
 							                                        <div className="form-group row">
 							                                            <div className="col-md-12">
-							                                                <input id="textinput" name="textinput" type="text" placeholder="Endereço" className="form-control input-md" />
+							                                                <input name="textinput" type="text" placeholder="Endereço" className="form-control input-md" />
 							                                            </div>
 							                                        </div>
 							                                    </fieldset>

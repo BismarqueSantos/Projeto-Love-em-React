@@ -19,17 +19,16 @@ const Chamada = () =>{
 										<h1>O Amor pode mudar o mundo</h1>
 									</div>
 								</div>
-								<div className="row">
+								<div className="row justify-content-center">
 									<div className="col-md-12">
 										<h5>Baixe Agora nosso Aplicativo</h5>
 										<p>A Forma mais rapida de avaliar estabelecimentos, e ter acesso aos estabelecimentos com mais empatia com a comunidade!</p>
-										<div className="row google">
-											<div className="col-md-6 text-right">
+										<div className="row  justify-content-center google">
+											<div className="col-md-6 text-center">
 												<img src={app1} className="d-inline-block align-top" alt="Imagem1"/>
-											</div>
-											<div className="col-md-6 text-left">
 												<img src={app2} className="d-inline-block align-top" alt="Imagem1"/>
 											</div>
+											
 										</div>
 									</div>
 								</div>

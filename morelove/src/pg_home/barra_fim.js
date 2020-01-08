@@ -9,7 +9,7 @@ const BarraFim = () =>{
 			            <div className="collapse navbar-collapse" id="collapsibleNavbar">
 			                <ul className="navbar-nav text-center">
 			                    <li nav-item>
-			                        <a href="#" className="navbar-brand text-center">
+			                        <a href="#teste" className="navbar-brand text-center">
 			                            <p>Desenvolvido por - @Bismarque Santos</p>
 			                        </a>
 			                    </li>

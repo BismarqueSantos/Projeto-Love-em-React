@@ -2,10 +2,17 @@ import React from 'react';
 
 const Busca = () =>{
 	return (
-		<div className="filtro">
 			<div className="container">
 				<div className="row">
 					<div className="col-md-3 colona_filtro">
+					<div className="row">
+						<div className="col-md-12">
+							<form className="example">
+							  <input type="text" className="form-control" placeholder="Buscar..." name="search" />
+							  <button type="submit" className="bta btn-success"><i className="fa fa-search"></i></button>
+							</form>
+						</div>
+					</div>
 						<h4>Filtre sua Busca</h4>
 						<div className="row">
 							<div className="col-md-12">
@@ -56,18 +63,9 @@ const Busca = () =>{
 						</div>
 					</div>
 					<div className="col-md-9 estaFiltrados">
-						<div className="row justify-content-end">
-							<div className="col-md-4">
-								<form className="example">
-								  <input type="text" placeholder="Buscar..." name="search" />
-								  <button type="submit" className="bta btn-success"><i className="fa fa-search"></i></button>
-								</form>
-							</div>
-						</div>
-
 						<div className="row linhaF">
 							<div className="col-md-4 imgR">
-								<img src="https://abrilvejasp.files.wordpress.com/2019/11/img_3240-hdr.jpg.jpg" alt="" />
+								<img src="https://abrilvejasp.files.wordpress.com/2019/11/img_3240-hdr.jpg.jpg" alt="Teste" />
 							</div>
 							<div className="col-md-8 detaR align-self-center">
 								<h4>Restaurante Chaparral</h4>
@@ -78,7 +76,7 @@ const Busca = () =>{
 
 						<div className="row linhaF">
 							<div className="col-md-4 imgR">
-								<img src="https://abrilvejasp.files.wordpress.com/2019/11/img_3240-hdr.jpg.jpg" alt="" />
+								<img src="https://abrilvejasp.files.wordpress.com/2019/11/img_3240-hdr.jpg.jpg" alt="Teste" />
 							</div>
 							<div className="col-md-8 detaR align-self-center">
 								<h4>Restaurante Chaparral</h4>
@@ -89,7 +87,7 @@ const Busca = () =>{
 
 						<div className="row linhaF">
 							<div className="col-md-4 imgR">
-								<img src="https://abrilvejasp.files.wordpress.com/2019/11/img_3240-hdr.jpg.jpg" alt="" />
+								<img src="https://abrilvejasp.files.wordpress.com/2019/11/img_3240-hdr.jpg.jpg" alt="Teste" />
 							</div>
 							<div className="col-md-8 detaR align-self-center">
 								<h4>Restaurante Chaparral</h4>
@@ -101,8 +99,6 @@ const Busca = () =>{
 					</div>
 				</div>
 			</div>
-		</div>
-	)
+			)
 }
-
 export default Busca

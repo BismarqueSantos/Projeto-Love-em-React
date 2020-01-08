@@ -34,6 +34,10 @@ html{
   width: 50%;
   height: auto;
 }
+.topoHome ul li a.nav-link img{
+      width: 50%;
+    height: 35px;
+}
 .topoHome .navbar p{
   color: #ffffff;
   font-size: 10px;
@@ -69,14 +73,16 @@ html{
 /*INICIO PESSOAS*/
 .pessoas{
   background: #343A40;
-  padding: 30px;
+  padding: 50px;
 }
 .pessoas .avaliador{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 110px 20px;
+  margin: 10px 0;
 }
 .pessoas .estabelecimento{
+  margin: 10px 0;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 110px 20px;
@@ -92,11 +98,11 @@ html{
 }
 .pessoas .avaliador .btn-primary, .pessoas .estabelecimento .btn-primary{
   background: #ffffff20;
-    padding: 8px 40px;
-    border: 2px solid #ffffff;
-    border-radius: 0;
-    margin-top: 20px;
-    transition: 0.4s;
+  padding: 8px 40px;
+  border: 2px solid #ffffff;
+  border-radius: 0;
+  margin-top: 20px;
+  transition: 0.4s;
 }
 .pessoas .avaliador:hover .btn-primary, .pessoas .estabelecimento:hover .btn-primary{
   background: #00000030;
@@ -200,11 +206,11 @@ html{
 .rodape .menu ul li a:hover{
   background: #333333;
 }
-.rodape .contatos h3{
+.rodape .formulario h3{
   color: #ffffff;
   margin-bottom: 30px;
 }
-.rodape .formulario h3{
+.rodape .contatos h3{
   color: #ffffff;
   margin-bottom: 30px;
 }
@@ -231,6 +237,84 @@ html{
   font-size: 15px;
 }
 /*FIM BARRA FINAL*/
+
+
+
+
+/*INICIO PG PERFIL ESTABELECIMENTO*/
+.botao{
+  background: #38458c;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+.botao button{
+  width: 100%;
+  background: #fff;
+  color: #000;
+  padding: 5px 0;
+  border-radius: 25px;
+  font-weight: 700;
+  border: 0;
+  margin-bottom: 5px;
+}
+.botao button a{
+  color: #000;
+}
+.TitulE .nome_local{
+  padding: 10px 0;
+  color: #8e8b8b;
+  border: 4px solid #38458c;
+  border-radius:  0 0 15px 15px;
+  margin-bottom: 40px;
+}
+.TitulE .perfil{
+  margin: 40px 0;
+}
+
+.galeria img {
+  margin-bottom: 5px;
+  width: 100%;
+}
+.descricao{
+  margin: 50px 0;
+}
+.descricao .desc{
+  background: #efefef;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px 4px rgba(0.5,0,0,0.5);
+  padding: 40px;
+}
+.descricao .seg{
+  margin-top: 15px;
+  background: #efefef;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px 4px rgba(0.5,0,0,0.5);
+  padding: 20px;
+
+}
+.localizacao{
+  margin-top: 50px;
+}
+.localizacao iframe{
+  width: 100%;
+  height: 300px;
+  border:0;
+}
+/*FIM PG PERFIL ESTABELECIMENTO*/
+
+
+/*INICIO PG USUARIOS*/
+.tituloU .perfil_u{
+  margin: 40px 0;
+}
+.tituloU .nome_local_u{
+  padding: 10px 0;
+  color: #8e8b8b;
+  border: 4px solid #38458c;
+  border-radius:  0 0 15px 15px;
+  margin-bottom: 40px;
+}
+/*FIM PG USUARIOS*/
 
 /*INICIO PG_VITRINE*/
 .topoVitrine .navbar{
@@ -282,6 +366,7 @@ html{
   background: #eae9e9;
   padding: 20px;
   border-radius: 25px;
+  margin-top: 40px;
 }
 .filtro .colona_filtro h5{
   margin-top: 20px;
@@ -295,6 +380,16 @@ html{
 .filtro .colona_filtro input{
   margin-top: 20px;
 }
+.filtro form.example input{
+  width: 87%;
+  display: inline;
+  margin-bottom: 15px;
+}
+.filtro form.example button{
+  height: 37px;
+  background: #00a1ff;
+  border-color: #00a1ff;
+}
 .estaFiltrados .linhaF{
   margin: 15px 0;
   border-radius: 25px;
@@ -303,6 +398,9 @@ html{
   background: #c1c0c0;
   border-radius: 25px;
   padding: 50px;
+}
+.filtro .estaFiltrados{
+  margin-top: 40px;
 }
 .filtro .estaFiltrados img{
   width: 100%;
@@ -321,66 +419,3 @@ html{
   border-radius: 50%;
 }
 /*FIM PG_VITRINE*/
-
-
-
-/*INICIO PG PERFIL ESTABELECIMENTO*/
-#perfil_e .perfil_E{
-  background: #53595f;
-  color: #00a1ff;
-  padding-top: 80px;
-  padding-bottom: 0;
-}
-#perfil_e .perfil_E img{
-  width: 100%;
-  border-radius: 25%;
-}
-#perfil_e .titulo{
-  padding: 10px 0;
-  color: #8e8b8b;
-  border: 4px solid #9c27b0;
-  border-radius:  0 0 15px 15px;
-}
-#perfil_e .avaliacao{
-  background: #d6d0d0;
-  margin-top: 20px;
-  padding: 5px;
-  border-radius: 15px;
-}
-#perfil_e .destaque{
-  background: #d6d0d0;
-  margin-top: 20px;
-  padding: 5px;
-  border-radius: 15px;
-}
-
-#perfil_e .galeria img {
-  margin-top: 50px;
-  width: 100%;
-}
-#perfil_e .descricao{
-  margin: 50px 0;
-}
-#perfil_e .descricao .desc{
-  background: #efefef;
-  border-radius: 15px;
-  box-shadow: 4px 4px 4px 4px rgba(0.5,0,0,0.5);
-  padding: 40px;
-}
-#perfil_e .descricao .seg{
-  margin-top: 15px;
-  background: #efefef;
-  border-radius: 15px;
-  box-shadow: 4px 4px 4px 4px rgba(0.5,0,0,0.5);
-  padding: 20px;
-
-}
-#perfil_e .localizacao{
-  margin: 50px 0;
-}
-#perfil_e .localizacao iframe{
-  width: 100%;
-  height: 300px;
-  border:0;
-}
-
