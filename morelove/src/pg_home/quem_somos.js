@@ -1,21 +1,20 @@
 import React from 'react';
-import imgQuem from '../img/banner-quem-somos.jpg'
-
-var avaliacao = {
-	backgroundImage: "url(" +imgQuem+ ")"
-}
-
 
 const QuemSomos = () =>{
 	return (
 		<div>
-			<div className="quem_somos text-center" id="quem" style={avaliacao}>
+			<div className="quem_somos" id="quem">
 				<div className="missoes">
-					<div className="container-fluid">
-						<div className="row ">
-							<div className="col-md-12">
-								<h1>Quem Somos</h1>
+					<div className="container">
+						<div className="row justify-content-center">
+							<div className="col-md-5 titulo_quem text-center">
+								<h1>QUEM SOMOS</h1>
+								<p><b>CONHEÇA NOSSA HISTÓRIA</b></p>
 							</div>
+						</div>
+
+
+						<div className="row text-center">
 							<div className="col-md-4">
 								<h2>Missão</h2>
 								<p>A razão da nossa existência é de promover o respeito, equidade, diversidade e bom relacionamento  onde quer que você vá.</p>

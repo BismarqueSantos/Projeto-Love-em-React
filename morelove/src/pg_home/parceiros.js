@@ -4,18 +4,17 @@ import imgSlider1 from '../img/parceiro1.png';
 import imgSlider2 from '../img/parceiros2.png';
 import imgSlider3 from '../img/parceiros3.jpg';
 
-var imgParceiros = {
-	backgroundImage: "url(" +imgpar+ ")"
-}
-
 const Parceiros = () =>{
 	return (
 		<div>
-			<div className="parceiros" id="parceria" style={imgParceiros}>
+			<div className="parceiros" id="parceria">
 				<div className="container">
+					<h1>Parceiros</h1>
 					<div className="row justify-content-center">
-						<div className="col-md-12">
-							<h1>Parceiros</h1>
+						<div className="col-md-6">
+						<img src={imgpar} alt="Imagem1"/>
+						</div>
+						<div className="col-md-6  slide-parceiro">
 							<div id="demo" className="carousel slide" data-ride="carousel">
 								<ul className="carousel-indicators">
 									<li data-target="#demo" data-slide-to="0" className="active"></li>

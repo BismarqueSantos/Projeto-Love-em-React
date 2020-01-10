@@ -5,33 +5,29 @@ const Botao = () =>{
 	return (
 			<div className="botao">
 				<div className="container-fluid">
-					<div className="row perfil_E">
+					<div className="row justify-content-center perfil_E">
 						<div className="col-md-3">
 							<Link to='/usuario'>
 							   <button>
 								   <a href="#teste">
-								        Perfil
+								        Configuração de Conta
 								    </a>
 							    </button>
-						  </Link>
+						  	</Link>
 						</div>
 
 						<div className="col-md-3">
-						   <Link to='/vitrine'>
+							<Link to='/mapa'>
 							   <button>
 								   <a href="#teste">
-								        Vitrine
+								        No Mapa
 								    </a>
 							    </button>
-						  </Link>
+						  	</Link>
 						</div>
 
 						<div className="col-md-3">
-							<button>Destaques</button>
-						</div>
-
-						<div className="col-md-3">
-							<button>Configuração</button>
+							<button>Avaliações</button>
 						</div>
 					</div>
 				</div>

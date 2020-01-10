@@ -2,24 +2,24 @@ import React from 'react';
 import '../App.css';
 import NavBar from './NavBar';
 import Chamada from './chamada';
-import Podio from './podio';
+import Galeria_h from './galeria_home';
 import Cadastro from './cadastro';
+import Podio from './podio';
 import QuemSomos from './quem_somos'
 import Parceiros from './parceiros'
 import Footer from './footer'
-import BarraFim from './barra_fim'
 
 const Home = () =>{
 	return (
 		<div>
 	      <NavBar />
 	      <Chamada />
+	      <Galeria_h />
 	      <Cadastro />
 	      <Podio />
 	      <QuemSomos />
 	      <Parceiros />
 	      <Footer />
-	      <BarraFim />
 	    </div>
 	)
 }
