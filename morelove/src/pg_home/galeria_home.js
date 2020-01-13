@@ -6,10 +6,14 @@ import img4 from '../img/praia.jpg';
 import img5 from '../img/restaurante.jpg';
 
 
-const Galeria_h = () =>{
+const Galeria = () =>{
 	return (
-		<div className="galeria"  id="galeria">
+		<div className="galeria">
 		    <div className="container">
+				<div id="galeria">
+		        <div className="row justify-content-center titulo_galeria">
+		        	<h4>Estabelecimentos disponiveis para ser avaliados</h4>
+	            </div>
 		        <div className="row justify-content-center">
 					<div className="col-md-2 align-self-center img_f">
 		         		<img src={img1} alt="Imagem1"/>
@@ -27,10 +31,11 @@ const Galeria_h = () =>{
 		         		<img src={img5} alt="Imagem1"/>
 		            </div>
 				</div>
+				</div>
 			</div>
 		</div>
 	)
 }
 
 
-export default Galeria_h
+export default Galeria

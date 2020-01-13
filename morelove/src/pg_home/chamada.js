@@ -44,19 +44,25 @@ const Chamada = () =>{
 								</a>
 								</div>
 							</div>
-							<div className="col-md-6 chama align-self-center text-center">
+							<div className="col-md-6 chama align-self-center">
 								<div className="row">
 									<div className="col-md-12">
-										<h1>LGBTQ+</h1>
+										<h1>Se torne um avaliador LGBTQ+</h1>
 										<h2>O Amor pode mudar o mundo</h2>
 									</div>
 								</div>
 								<div className="row justify-content-center">
 									<div className="col-md-12">
-										<h5>Baixe Agora nosso Aplicativo</h5>
-										<p>A Forma mais rapida de avaliar estabelecimentos, e ter acesso aos estabelecimentos com mais empatia com a comunidade!</p>
-										<div className="row  justify-content-center google">
-											<div className="col-md-6 text-center">
+										Sua voz é muito importante, e pode transformar vidas. <br />
+										Avalie Estabelecimentos (lugares e espaços).<br />
+										Mostre sua opinião para as pessoas da comunidade.<br />
+										Transforme lugares a partir de sua notas.<br />
+										
+										<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#avaliador1">
+											Quero ser avaliador
+										</button>
+										<div className="row google">
+											<div className="col-md-6">
 												<img src={app1} className="d-inline-block align-top" alt="Imagem1"/>
 												<img src={app2} className="d-inline-block align-top" alt="Imagem1"/>
 											</div>

@@ -8,23 +8,51 @@ const Cadastro = () =>{
 			<div className="pessoas text-center" id="cadastrar">
 				<div className="container">
 					<div className="row justify-content-around">
-						<div className="col-md-8 titulo_ava">
+						<div className="col-md-7 titulo_ava">
 							<h1>CADASTRE-SE</h1>
 							<p>Cadastre-se como avaliador, ou cadastre seu estabelecimento para ser avaliado</p>
+
+								<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#apresentar">
+								  Saiba Mais
+								</button>
+
+								<div className="modal" id="apresentar">
+								  <div className="modal-dialog">
+								    <div className="modal-content">
+
+								      <div className="modal-header">
+								        <h4 className="modal-title">Como funciona ser avaliador</h4>
+								        <button type="button" className="close" data-dismiss="modal">&times;</button>
+								      </div>
+
+								      <div className="modal-body">
+								        Modal body..
+								      </div>
+
+								      <div className="modal-footer">
+								        <button type="button" className="btn btn-danger" data-dismiss="modal">Close</button>
+								      </div>
+
+								    </div>
+								  </div>
+								</div>
+
 						</div>
 					</div>
 					<div className="row justify-content-around">
 						<div className="col-md-6 avaliador">
 							<img src={avaliador1} alt="Imagem1"/>
+							<p>Se torne um avaliador e contribua com a comunidade LGBT+</p>
 						</div>
 							<div className="col-md-6 estabelecimento">
 								<img src={estabelecimento} alt="Imagem1"/>
+							<p>Deixe seu estabelecimento em um lugar de destaque com empatia</p>
 							</div>
 					</div>
 					<div className="row justify-content-around">
 						<div className="col-md-4 align-self-center avaliador">
 								<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#avaliador1">
-									Cadastre-se
+									Quero ser avaliador
 								</button>
 							<div className="modal" id="estabelecimento1">
 							    <div className="modal-dialog modal-lg">
@@ -82,7 +110,7 @@ const Cadastro = () =>{
 						
 						<div className="col-md-4 estabelecimento align-self-center">
 						 	<button type="button" className="btn btn-primary" data-toggle="modal" data-target="#estabelecimento1">
-							Cadastre-se
+							Cadastrer Estabelecimento
 							</button>
 							<div className="modal" id="avaliador1">
 							    <div className="modal-dialog modal-lg">

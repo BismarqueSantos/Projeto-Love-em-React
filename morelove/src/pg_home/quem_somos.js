@@ -7,7 +7,7 @@ const QuemSomos = () =>{
 				<div className="missoes">
 					<div className="container">
 						<div className="row justify-content-center">
-							<div className="col-md-5 titulo_quem text-center">
+							<div className="col-md-4 titulo_quem text-center">
 								<h1>QUEM SOMOS</h1>
 								<p><b>CONHEÇA NOSSA HISTÓRIA</b></p>
 							</div>

@@ -24,6 +24,9 @@ const NavBar = () =>{
 						  </div>
 				      </li>
 				      <li className="nav-item dropdown">
+				          <a className="nav-link" href="#chamada">Inicio</a>
+				      </li>
+				      <li className="nav-item dropdown">
 				          <a className="nav-link" href="#cadastrar">Cadastro</a>
 				      </li>
 				      <li className="nav-item dropdown">

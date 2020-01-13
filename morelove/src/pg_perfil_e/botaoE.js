@@ -7,7 +7,7 @@ const BotaoE = () =>{
 
 			<div className="botao">
 				<div className="container-fluid">
-					<div className="row perfil_E">
+					<div className="row perfil_E justify-content-center">
 						<div className="col-md-3">
 							<Link to='/perfil_e'>
 							   <button>
@@ -22,9 +22,6 @@ const BotaoE = () =>{
 						</div>
 						<div className="col-md-3">
 							<button>Destaques</button>
-						</div>
-						<div className="col-md-3">
-							<button>Configuração</button>
 						</div>
 					</div>					
 				</div>

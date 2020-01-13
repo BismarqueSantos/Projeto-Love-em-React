@@ -66,17 +66,25 @@ html{
 .jumbotron{
   margin-bottom: 0;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   color: #fff;
 }
 .jumbotron .chama h1{
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   border-bottom: 4px solid #ec3c31;
 }
-.jumbotron .chamada_app .banner img{
-  width: 100%;
+.jumbotron .chama button{
+  background: #00000070;
+  color: #fff;
+  border: 2px solid #ec3c31;
+  padding: 10px 40px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px #333;
+}
+.jumbotron .chamada_app .google{
+  margin-top: 30px; 
 }
 .jumbotron .chamada_app .google img{
   width: 50%;
@@ -85,8 +93,15 @@ html{
 
 /*INICIO GALERIA*/
 #galeria{
-  margin-top: -50px;
-  margin-bottom: 30px 0;
+  margin-top: -120px;
+  margin-bottom: 30px;
+  padding: 50px 0;
+  background: #192057;
+  box-shadow: 0px 10px 10px black;
+}
+#galeria .titulo_galeria h4{
+  color: #fff;
+  margin-bottom: 20px;
 }
 /*FIM GALERIA*/
 
@@ -99,10 +114,18 @@ html{
 .pessoas h1{
   font-size: 40px;
 }
+.pessoas .titulo_ava button{
+  background: transparent;
+  color: #000;
+  border: 0;
+  padding: 10px 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 10px 10px #333;
+
+}
 .pessoas p{
   font-size: 16px;
-  border-bottom: 4px solid #ec3c31;
-  margin-bottom: 50px;
+  border-bottom: 3px solid #ec3c31;
 }
 .pessoas .avaliador img{
   width: 100%;
@@ -113,13 +136,11 @@ html{
   border-radius: 25px;
 }
 .pessoas .avaliador .btn-primary, .pessoas .estabelecimento .btn-primary{
-  background: #ec3c31;
+  background: #ec3c3199;
   color: #fff;
   padding: 8px 40px;
-  border-radius: 25px;
   margin-top: 20px;
-  box-shadow: 0 4px 4px rgba(0,0,0,0.5);
-  transition: 0.4s;
+  box-shadow: 0px 10px 10px #333;
 }
 /*FIM PESSOAS*/
 
@@ -135,48 +156,64 @@ html{
 .podio p{
   color: #fff;
 }
-
-.podio .img img{
-  width: 100%;
-
-  margin-bottom: 5px;
-}
 .podio .img_p{
-  margin: 30px 0;
-  border-bottom: 3px solid #ec3c31;
-}
-.podio .img_p .bola{
-  background: #ec3c31;
-  height: 25px;
-  width: 10px;
-  margin-left: 50%;
-}
-.podio .img_p .bola1{
-  background: #ec3c31;
-  height: 25px;
-  width: 10px;
-  margin-left: 20%;
-  position: absolute;
-}
-.podio .img_p .bola2{
-  background: #ec3c31;
-  height: 25px;
-  width: 10px;
-  margin-left: 70%;
-  position: absolute;
+  padding: 30px 20px;
+    background: #ffffff50;
 }
 .podio .img_p img{
   width: 100%;
   margin-bottom: 5px;
   height: 150px;
 }
+.podio .img_p .img_trofeu img{
+  width: 90px;
+  height: 90px;
+}
+.podio .img_1 h4{
+  color: #333;
+}
+.podio .img_1{
+  padding: 60px 20px;
+  background: #ffffff;
+}
+.podio .img_1 img{
+  width: 100%;
+  margin-bottom: 5px;
+  height: 150px;
+}
+.podio .img_1 .img_trofeu img{
+  width: 90px;
+  height: 90px;
+}
 .podio .img_f img{
   width: 100%;
   height: 100px;
 }
-.podio .img_p .img_trofeu img{
-  width: 70px;
-  height: 50px;
+.podio .img_f{
+  margin: 30px 0;
+}
+.podio .linha1{
+  border-top: 3px solid #ec3c31;
+}
+.podio .apontar .bola{
+  background: #ec3c31;
+  height: 25px;
+  width: 10px;
+  margin-left: 50%;
+}
+.podio .apontar .bola1{
+  background: #ec3c31;
+  height: 25px;
+  width: 10px;
+  margin-left: 20%;
+  position: absolute;
+}
+.podio .apontar .bola2{
+  background: #ec3c31;
+  height: 25px;
+  width: 10px;
+  margin-left: 70%;
+  position: absolute;
 }
 .podio h2{
   color: #fff;
@@ -193,7 +230,7 @@ html{
 }
 .quem_somos .titulo_quem p{
   font-size: 16px;
-  border-bottom: 4px solid #ec3c31;
+  border-bottom: 3px solid #ec3c31;
   margin-bottom: 50px;
 }
 .quem_somos h2{
@@ -232,6 +269,18 @@ html{
   background: #192057;
   padding: 30px 0;
 }
+.rodape .dropdown-menu{
+  background: #192057;
+  color: #fff;
+}
+.rodape .dropdown-menu button{
+  background: transparent;
+  margin: 0 5px;
+}
+.rodape .menu img {
+  width: 70px;
+  height: 70px;
+}
 .rodape .menu h3{
   color: #ffffff;
   margin-bottom: 30px;
@@ -246,9 +295,6 @@ html{
 .rodape .menu ul li a{
   color: #ffffff;
   font-size: 16px;
-}
-.rodape .menu ul li a:hover{
-  background: #333333;
 }
 .rodape .formulario h3{
   color: #ffffff;
@@ -275,7 +321,7 @@ html{
   background: #ec3c31;
   color: #fff;
   padding: 8px 40px;
-  border-radius: 25px;
+  border: 0;
   box-shadow: 0 4px 4px rgba(0,0,0,0.5);
 }
 /*FIM RODAPÈ*/
@@ -358,9 +404,10 @@ html{
   margin-bottom: 30px;
 }
 .conta input{
-  width: 50%;
+  width: 100%;
 }
 .conta button{
+  float: right;
   background: #38458c;
   color: #fff;
 }

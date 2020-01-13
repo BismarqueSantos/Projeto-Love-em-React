@@ -1,6 +1,6 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import ReactDOM from 'react-dom';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import App from './App';
 import Perfil from './pg_perfil_e/perfil_e';
 import Usuario from './pg_usuario/usuario';
